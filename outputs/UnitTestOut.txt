@@ -1,0 +1,430 @@
+
+
+CLASS STATION
+
+TESTCASE 1: Output streaming operator for Station: PASS
+TESTCASE 2: Station::GetDistance() returns correct distance between Bangalore and Chennai: PASS
+TESTCASE 3: Station::GetDistance() returns correct distance between Bangalore and Delhi: PASS
+TESTCASE 4: Station::GetDistance() returns correct distance between Bangalore and Kolkata: PASS
+TESTCASE 5: Station::GetDistance() returns correct distance between Bangalore and Mumbai: PASS
+TESTCASE 6: Station::GetDistance() returns correct distance between Chennai and Bangalore: PASS
+TESTCASE 7: Station::GetDistance() returns correct distance between Chennai and Delhi: PASS
+TESTCASE 8: Station::GetDistance() returns correct distance between Chennai and Kolkata: PASS
+TESTCASE 9: Station::GetDistance() returns correct distance between Chennai and Mumbai: PASS
+TESTCASE 10: Station::GetDistance() returns correct distance between Delhi and Bangalore: PASS
+TESTCASE 11: Station::GetDistance() returns correct distance between Delhi and Chennai: PASS
+TESTCASE 12: Station::GetDistance() returns correct distance between Delhi and Kolkata: PASS
+TESTCASE 13: Station::GetDistance() returns correct distance between Delhi and Mumbai: PASS
+TESTCASE 14: Station::GetDistance() returns correct distance between Kolkata and Bangalore: PASS
+TESTCASE 15: Station::GetDistance() returns correct distance between Kolkata and Chennai: PASS
+TESTCASE 16: Station::GetDistance() returns correct distance between Kolkata and Delhi: PASS
+TESTCASE 17: Station::GetDistance() returns correct distance between Kolkata and Mumbai: PASS
+TESTCASE 18: Station::GetDistance() returns correct distance between Mumbai and Bangalore: PASS
+TESTCASE 19: Station::GetDistance() returns correct distance between Mumbai and Chennai: PASS
+TESTCASE 20: Station::GetDistance() returns correct distance between Mumbai and Delhi: PASS
+TESTCASE 21: Station::GetDistance() returns correct distance between Mumbai and Kolkata: PASS
+TESTCASE 22: Station::GetDistance() returns correct distance between Bangalore-Chennai and Chennai-Bangalore: PASS
+TESTCASE 23: Station::GetDistance() returns correct distance between Bangalore-Delhi and Delhi-Bangalore: PASS
+TESTCASE 24: Station::GetDistance() returns correct distance between Bangalore-Kolkata and Kolkata-Bangalore: PASS
+TESTCASE 25: Station::GetDistance() returns correct distance between Bangalore-Mumbai and Mumbai-Bangalore: PASS
+TESTCASE 26: Station::GetDistance() returns correct distance between Chennai-Delhi and Delhi-Chennai: PASS
+TESTCASE 27: Station::GetDistance() returns correct distance between Chennai-Kolkata and Kolkata-Chennai: PASS
+TESTCASE 28: Station::GetDistance() returns correct distance between Chennai-Mumbai and Mumbai-Chennai: PASS
+TESTCASE 29: Station::GetDistance() returns correct distance between Delhi-Kolkata and Kolkata-Delhi: PASS
+TESTCASE 30: Station::GetDistance() returns correct distance between Delhi-Mumbai and Mumbai-Delhi: PASS
+TESTCASE 31: Station::GetDistance() returns correct distance between Kolkata-Mumbai and Mumbai-Kolkata: PASS
+TESTCASE 32 Station::GetName() returns the correct name: PASS
+TESTCASE 33 (E): Station::IsValid() throws expected exception: PASS
+    Exception message - Station Error: Station cannot have empty name
+TESTCASE 34 (E): Station::IsValid() throws expected exception: PASS
+    Exception message - Station Error: Station not in Database
+TESTCASE 35 (E): Station::GetDistance() throws expected exception: PASS
+    Exception message - Railways Error: Finding distance between two same Stations is not allowed
+TESTCASE 36: Station::GetStation() returns correctly constructed Station: PASS
+TESTCASE 37 (E): Station::GetStation() throws expected exception: PASS
+    Exception message - Station Error: Station cannot have empty name
+
+----- VERDICT : PASS -----
+
+
+CLASS RAILWAYS
+
+TESTCASE 1: Checking if Bangalore is present in the static data: PASS
+TESTCASE 2: Checking if Chennai is present in the static data: PASS
+TESTCASE 3: Checking if Delhi is present in the static data: PASS
+TESTCASE 4: Checking if Kolkata is present in the static data: PASS
+TESTCASE 5: Checking if Mumbai is present in the static data: PASS
+TESTCASE 6: Railways::sDistStations stores the correct distances between Bangalore and Chennai: PASS
+TESTCASE 7: Railways::sDistStations stores the correct distances between Bangalore and Delhi: PASS
+TESTCASE 8: Railways::sDistStations stores the correct distances between Bangalore and Kolkata: PASS
+TESTCASE 9: Railways::sDistStations stores the correct distances between Bangalore and Mumbai: PASS
+TESTCASE 10: Railways::sDistStations stores the correct distances between Chennai and Delhi: PASS
+TESTCASE 11: Railways::sDistStations stores the correct distances between Chennai and Kolkata: PASS
+TESTCASE 12: Railways::sDistStations stores the correct distances between Chennai and Mumbai: PASS
+TESTCASE 13: Railways::sDistStations stores the correct distances between Delhi and Kolkata: PASS
+TESTCASE 14: Railways::sDistStations stores the correct distances between Delhi and Mumbai: PASS
+TESTCASE 15: Railways::sDistStations stores the correct distances between Kolkata and Mumbai: PASS
+TESTCASE 16: Railways::GetDistance() returns the correct distances between Bangalore and Chennai: PASS
+TESTCASE 17: Railways::GetDistance() returns the correct distances between Bangalore and Delhi: PASS
+TESTCASE 18: Railways::GetDistance() returns the correct distances between Bangalore and Kolkata: PASS
+TESTCASE 19: Railways::GetDistance() returns the correct distances between Bangalore and Mumbai: PASS
+TESTCASE 20: Railways::GetDistance() returns the correct distances between Chennai and Bangalore: PASS
+TESTCASE 21: Railways::GetDistance() returns the correct distances between Chennai and Delhi: PASS
+TESTCASE 22: Railways::GetDistance() returns the correct distances between Chennai and Kolkata: PASS
+TESTCASE 23: Railways::GetDistance() returns the correct distances between Chennai and Mumbai: PASS
+TESTCASE 24: Railways::GetDistance() returns the correct distances between Delhi and Bangalore: PASS
+TESTCASE 25: Railways::GetDistance() returns the correct distances between Delhi and Chennai: PASS
+TESTCASE 26: Railways::GetDistance() returns the correct distances between Delhi and Kolkata: PASS
+TESTCASE 27: Railways::GetDistance() returns the correct distances between Delhi and Mumbai: PASS
+TESTCASE 28: Railways::GetDistance() returns the correct distances between Kolkata and Bangalore: PASS
+TESTCASE 29: Railways::GetDistance() returns the correct distances between Kolkata and Chennai: PASS
+TESTCASE 30: Railways::GetDistance() returns the correct distances between Kolkata and Delhi: PASS
+TESTCASE 31: Railways::GetDistance() returns the correct distances between Kolkata and Mumbai: PASS
+TESTCASE 32: Railways::GetDistance() returns the correct distances between Mumbai and Bangalore: PASS
+TESTCASE 33: Railways::GetDistance() returns the correct distances between Mumbai and Chennai: PASS
+TESTCASE 34: Railways::GetDistance() returns the correct distances between Mumbai and Delhi: PASS
+TESTCASE 35: Railways::GetDistance() returns the correct distances between Mumbai and Kolkata: PASS
+TESTCASE 36 : Check if all the data is valid using Railways:: IsValid(): PASS
+TESTCASE 37: Railways::GetDistance() Error Between Equal Stations : PASS
+    Expected Exception: Railways Error: Finding distance between two same Stations is not allowed
+TESTCASE 38: Railways::GetDistance() Error Between Non existent Distance : PASS
+    Expected Exception: Station Error: Station not in Database
+
+----- VERDICT : PASS -----
+
+
+CLASS DIVYAANG
+
+TESTCASE 1 : Divyaang:GetDivyaangConcessionFactor - ACFirstClass - Blind : PASS
+TESTCASE 2 : Divyaang:GetDivyaangConcessionFactor - Executive Chair Car - Blind : PASS
+TESTCASE 3 : Divyaang::GetDivyaangConcessionFactor - AC 2 Tier - Blind :  PASS
+TESTCASE 4 : Divyaang:GetDivyaangConcessionFactor - First Class - Blind :  PASS
+TESTCASE 5 : Divyaang:GetDivyaangConcessionFactor - AC3Tier - Blind :  PASS
+TESTCASE 6 : Divyaang:GetDivyaangConcessionFactor - AC Chair Car Orthopaedically Handicapped :  PASS
+TESTCASE 7 : Divyaang:GetDivyaangConcessionFactor - Sleeper Cancer Patient :  PASS
+TESTCASE 8 : Divyaang:GetDivyaangConcessionFactor - Second Sitting TB Patient :  PASS
+TESTCASE 9 : Divyaang:Blind::GetName()   PASS
+TESTCASE 10: Divyaang:OrthopaedicallyHandicapped::GetName()   PASS
+TESTCASE 11: Divyaang:CancerPatient::GetName()   PASS
+TESTCASE 12: Divyaang:CancerPatient::GetName()   PASS
+TESTCASE 13: outputstream  :  PASS
+TESTCASE 14: Test working of polymorphic hierarchy by comparing the GetName() function return value : PASS
+TESTCASE 15: Test Output streaming operator for Divyaang : PASS
+
+----- VERDICT : 15/15 test cases passed -----
+
+
+CLASS GENDER
+
+TESTCASE 1: Checking GetName for male:  PASS
+TESTCASE 2: Checking GetName for female:  PASS
+TESTCASE 3: Checking GetTitle for male:  PASS
+TESTCASE 4: Checking GetTitle for female:  PASS
+TESTCASE 5: Test Output streaming operator for Gender::Male :  PASS
+TESTCASE 6:  Test working of polymorphic hierarchy by comparing the GetName() function return value:  PASS
+TESTCASE 7:  Test Output streaming operator for Gender:  PASS
+
+----- VERDICT : 7/7 test cases passed -----
+
+
+CLASS NAME
+
+TESTCASE 1: Test Output streaming operator : PASS
+
+----- VERDICT : 1/1 test cases passed -----
+
+
+CLASS DATE
+
+TESTCASE 1: Checking the friend output streaming operator : PASS
+TESTCASE 2: CCheck 'Date' construction : PASS
+TESTCASE 3: CCheck 'Date' construction : PASS
+TESTCASE 4: Checking GetDay() : PASS
+TESTCASE 5: Checking  GetMonth() : PASS
+TESTCASE 6: Checking GetYear() : PASS
+TESTCASE 7: Checking IsLeapYear() - Non Leap Year : PASS
+TESTCASE 8: Check for leap year - Non leap year : PASS
+TESTCASE 9: Check for leap year - leap year : PASS
+TESTCASE 10: Check for leap year - leap year : PASS
+TESTCASE 11: Calculate Age Check : PASS
+TESTCASE 12: Calculate Span Check (includes leap years also) : PASS
+TESTCASE 13: Calcualate Span without leap years : PASS
+TESTCASE 14: Copy Assignment Operator : PASS
+TESTCASE 15: Copy Assignment Operator - Not Equal : PASS
+TESTCASE 16: IsValid() with integer inputs - Invalid Year : PASS
+Expected Exception thrown Date Error: Year is invalid
+TESTCASE 17: IsValid() with integer inputs - Invalid Month +ve : PASS
+Expected Exception thrown Date Error: Month is invalid
+TESTCASE 18: IsValid() with integer inputs - Invalid Month  -ve: PASS
+Expected Exception thrown Date Error: Month is invalid
+TESTCASE 19: IsValid() with integer inputs - Invalid Date : PASS
+Expected Exception thrown Date Error: Date is invalid
+TESTCASE 20: IsValid() with integer inputs - Invalid Date - 29 days in February without leap year : PASS
+Expected Exception thrown Date Error: Date is invalid
+TESTCASE 21: IsValid() with integer inputs - Invalid Date - 31 days in April : PASS
+Expected Exception thrown Date Error: Date is invalid
+TESTCASE 22: IsValid() with integer inputs - Invalid Date - 32 days in January : PASS
+Expected Exception thrown Date Error: Date is invalid
+TESTCASE 23: IsValid() with integer inputs - valid Date - 29 days in February in leap year : PASS
+TESTCASE 24: IsValid() with string inputs - Invalid Year : PASS
+Expected Exception thrown Date Error: Year is invalid
+TESTCASE 25: IsValid() with string inputs - Invalid Month - +ve: PASS
+Expected Exception thrown Date Error: Month is invalid
+TESTCASE 25: IsValid() with string inputs -Invalid Month -ve : PASS
+Expected Exception thrown Date Error: Month is invalid
+TESTCASE 26: IsValid() with string inputs -Invalid Date : PASS
+Expected Exception thrown Date Error: Date is invalid
+TESTCASE 27: IsValid() with string inputs -Invalid Date - 29 days without leap year : PASS
+Expected Exception thrown Date Error: Date is invalid
+TESTCASE 28: IsValid() with string inputs -Invalid Date - 31 days in April : PASS
+Expected Exception thrown Date Error: Date is invalid
+TESTCASE 29: IsValid() with string inputs -Invalid Date - 32 days in January: PASS
+Expected Exception thrown Date Error: Date is invalid
+TESTCASE 30: IsValid() with string inputs -valid Date - 29 days in February in leap year : PASS
+TESTCASE 31: IsValid() with string inputs -invalid format - 1 : FALSE Valid date 29-2-2004 shows as Invalid
+TESTCASE 32: IsValid() with string inputs -invalid format - 2 :PASS
+Expected Exception thrown Date Error: Date format should be DD/MM/YYYY, where DD,MM,YYYY are numeric
+TESTCASE 33: IsValid() with string inputs -invalid format - 3 :PASS
+Expected Exception thrown Date Error: Date format should be DD/MM/YYYY, where DD,MM,YYYY are numeric
+TESTCASE 34: IsValid() with string inputs - invalid format - 4:PASS
+Expected Exception thrown Date Error: Date format should be DD/MM/YYYY, where DD,MM,YYYY are numeric
+TESTCASE 35: IsValid() with string inputs - Get Date with invalid string :PASS
+Expected Exception thrown Date Error: Date format should be DD/MM/YYYY, where DD,MM,YYYY are numeric
+TESTCASE 36: IsValid() with string inputs - Get date with valid string:TESTCASE 37: IsValid() with string inputs - Get Date with invalid string :PASS
+Expected Exception thrown Date Error: Year is invalid
+TESTCASE 38: Get date with valid input :PASS
+
+----- VERDICT : 38/38 Test cases Passed -----
+
+
+CLASS PASSENGER
+
+TESTCASE 1: Testing IsValid()-   Both first and last names missing : PASS
+Expected Exception thrown: Passenger Error: Passenger must have at least one of First Name and Last Name
+TESTCASE 2: Testing IsValid()-   Valid Naming + aadhar + birthday + mobile no - Middle Name missing : PASS
+TESTCASE 3: Testing IsValid()-   Valid Naming + aadhar + birthday + mobile no - No Name missing: PASS
+TESTCASE 4: Testing IsValid()-   /BadAadhaar - Not 12 digits: PASS
+Expected Exception thrown: Passenger Error: Passenger must have a 12 Digit Aadhaar Number
+TESTCASE 5: Testing IsValid()-  BadAadhar - Non numeric: PASS
+Expected Exception thrown: Passenger Error: Passenger Aadhaar Number cannot contain characters
+TESTCASE 6: Testing IsValid()-  Bad Mobile no - non empty with length not 10: PASS
+Expected Exception thrown: Passenger Error: Passenger must have a 10 Digit Mobile Number
+TESTCASE 7: Testing IsValid()-  Bad Mobile no - non empty with non numeric: PASS
+Expected Exception thrown: Passenger Error: Passenger Mobile Number cannot contain characters
+TESTCASE 8: Testing IsValid()- Mobile Number is valid: PASS
+TESTCASE 9: Testing IsValid()- Bad Age - Not born yet: PASS
+Expected Exception thrown: Passenger Error: Passenger has not been born yet
+TESTCASE 10: Testing the overloaded == operator - valid Case PASS
+TESTCASE 11: Testing the overloaded == operator - valid Case PASS
+TESTCASE 12: Testing GetPasseneger - InValid Case :  PASS
+Expection error : Passenger Error: Passenger must have a 10 Digit Mobile Number
+TESTCASE 12: Test Output streaming operator for Passenger :  PASS
+
+----- VERDICT : 12/12 test cases passed -----
+
+
+CLASS BOOKINGCLASSES
+
+TESTCASE 1: AC3Tier::GetLoadFactor() returns the correct load factor: PASS
+TESTCASE 2: AC3Tier::GetName() returns the correct name: PASS
+TESTCASE 3: AC3Tier::IsAC() returns correct AC status: PASS
+TESTCASE 4: AC3Tier::IsLuxury() returns correct luxury status: PASS
+TESTCASE 5: AC3Tier::IsSitting() returns correct sitting status: PASS
+TESTCASE 6: AC3Tier::GetNumberOfTiers() returns the correct number of tiers: PASS
+TESTCASE 7: AC3Tier::GetReservationCharge() returns the correct reservation charge: PASS
+TESTCASE 8: AC3Tier::GetTatkalLoadFactor() returns the correct tatkal load factor: PASS
+TESTCASE 9: AC3Tier::GetMinTatkalCharge() returns the correct minimum tatkal charge: PASS
+TESTCASE 10: AC3Tier::GetMaxTatkalCharge() returns the correct maximum tatkal charge: PASS
+TESTCASE 11: AC3Tier::GetMinTatkalDist() returns the correct minimum tatkal distance: PASS
+TESTCASE 12: Sleeper::GetLoadFactor() returns the correct load factor: PASS
+TESTCASE 13: Sleeper::GetName() returns the correct name: PASS
+TESTCASE 14: Sleeper::IsAC() returns correct AC status: PASS
+TESTCASE 15: Sleeper::IsLuxury() returns correct luxury status: PASS
+TESTCASE 16: Sleeper::IsSitting() returns correct sitting status: PASS
+TESTCASE 17: Sleeper::GetNumberOfTiers() returns the correct number of tiers: PASS
+TESTCASE 18: Sleeper::GetReservationCharge() returns the correct reservation charge: PASS
+TESTCASE 19: Sleeper::GetTatkalLoadFactor() returns the correct tatkal load factor: PASS
+TESTCASE 20: Sleeper::GetMinTatkalCharge() returns the correct minimum tatkal charge: PASS
+TESTCASE 21: Sleeper::GetMaxTatkalCharge() returns the correct maximum tatkal charge: PASS
+TESTCASE 22: Sleeper::GetMinTatkalDist() returns the correct minimum tatkal distance: PASS
+TESTCASE 23: AC2Tier::GetLoadFactor() returns the correct load factor: PASS
+TESTCASE 24: AC2Tier::GetName() returns the correct name: PASS
+TESTCASE 25: AC2Tier::IsAC() returns correct AC status: PASS
+TESTCASE 26: AC2Tier::IsLuxury() returns correct luxury status: PASS
+TESTCASE 27: AC2Tier::IsSitting() returns correct sitting status: PASS
+TESTCASE 28: AC2Tier::GetNumberOfTiers() returns the correct number of tiers: PASS
+TESTCASE 29: AC2Tier::GetReservationCharge() returns the correct reservation charge: PASS
+TESTCASE 30: AC2Tier::GetTatkalLoadFactor() returns the correct tatkal load factor: PASS
+TESTCASE 31: AC2Tier::GetMinTatkalCharge() returns the correct minimum tatkal charge: PASS
+TESTCASE 32: AC2Tier::GetMaxTatkalCharge() returns the correct maximum tatkal charge: PASS
+TESTCASE 33: AC2Tier::GetMinTatkalDist() returns the correct minimum tatkal distance: PASS
+TESTCASE 34: ACFirstClass::GetLoadFactor() returns the correct load factor: PASS
+TESTCASE 35: ACFirstClass::GetName() returns the correct name: PASS
+TESTCASE 36: ACFirstClass::IsAC() returns correct AC status: PASS
+TESTCASE 37: ACFirstClass::IsLuxury() returns correct luxury status: PASS
+TESTCASE 38: ACFirstClass::IsSitting() returns correct sitting status: PASS
+TESTCASE 39: ACFirstClass::GetNumberOfTiers() returns the correct number of tiers: PASS
+TESTCASE 40: ACFirstClass::GetReservationCharge() returns the correct reservation charge: PASS
+TESTCASE 41: ACFirstClass::GetTatkalLoadFactor() returns the correct tatkal load factor: PASS
+TESTCASE 42: ACFirstClass::GetMinTatkalCharge() returns the correct minimum tatkal charge: PASS
+TESTCASE 43: ACFirstClass::GetMaxTatkalCharge() returns the correct maximum tatkal charge: PASS
+TESTCASE 44: ACFirstClass::GetMinTatkalDist() returns the correct minimum tatkal distance: PASS
+TESTCASE 45: FirstClass::GetLoadFactor() returns the correct load factor: PASS
+TESTCASE 46: FirstClass::GetName() returns the correct name: PASS
+TESTCASE 47: FirstClass::IsAC() returns correct AC status: PASS
+TESTCASE 48: FirstClass::IsLuxury() returns correct luxury status: PASS
+TESTCASE 49: FirstClass::IsSitting() returns correct sitting status: PASS
+TESTCASE 50: FirstClass::GetNumberOfTiers() returns the correct number of tiers: PASS
+TESTCASE 51: FirstClass::GetReservationCharge() returns the correct reservation charge: PASS
+TESTCASE 52: FirstClass::GetTatkalLoadFactor() returns the correct tatkal load factor: PASS
+TESTCASE 53: FirstClass::GetMinTatkalCharge() returns the correct minimum tatkal charge: PASS
+TESTCASE 54: FirstClass::GetMaxTatkalCharge() returns the correct maximum tatkal charge: PASS
+TESTCASE 55: FirstClass::GetMinTatkalDist() returns the correct minimum tatkal distance: PASS
+TESTCASE 56: ACChairCar::GetLoadFactor() returns the correct load factor: PASS
+TESTCASE 57: ACChairCar::GetName() returns the correct name: PASS
+TESTCASE 58: ACChairCar::IsAC() returns correct AC status: PASS
+TESTCASE 59: ACChairCar::IsLuxury() returns correct luxury status: PASS
+TESTCASE 60: ACChairCar::IsSitting() returns correct sitting status: PASS
+TESTCASE 61: ACChairCar::GetNumberOfTiers() returns the correct number of tiers: PASS
+TESTCASE 62: ACChairCar::GetReservationCharge() returns the correct reservation charge: PASS
+TESTCASE 63: ACChairCar::GetTatkalLoadFactor() returns the correct tatkal load factor: PASS
+TESTCASE 64: ACChairCar::GetMinTatkalCharge() returns the correct minimum tatkal charge: PASS
+TESTCASE 65: ACChairCar::GetMaxTatkalCharge() returns the correct maximum tatkal charge: PASS
+TESTCASE 66: ACChairCar::GetMinTatkalDist() returns the correct minimum tatkal distance: PASS
+TESTCASE 67: SecondSitting::GetLoadFactor() returns the correct load factor: PASS
+TESTCASE 68: SecondSitting::GetName() returns the correct name: PASS
+TESTCASE 69: SecondSitting::IsAC() returns correct AC status: PASS
+TESTCASE 70: SecondSitting::IsLuxury() returns correct luxury status: PASS
+TESTCASE 71: SecondSitting::IsSitting() returns correct sitting status: PASS
+TESTCASE 72: SecondSitting::GetNumberOfTiers() returns the correct number of tiers: PASS
+TESTCASE 73: SecondSitting::GetReservationCharge() returns the correct reservation charge: TESTCASE 74: SecondSitting::GetTatkalLoadFactor() returns the correct tatkal load factor: PASS
+TESTCASE 75: SecondSitting::GetMinTatkalCharge() returns the correct minimum tatkal charge: PASS
+TESTCASE 76: SecondSitting::GetMaxTatkalCharge() returns the correct maximum tatkal charge: PASS
+TESTCASE 77: SecondSitting::GetMinTatkalDist() returns the correct minimum tatkal distance: PASS
+TESTCASE 78: ExecutiveChairCar::GetLoadFactor() returns the correct load factor: PASS
+TESTCASE 79: ExecutiveChairCar::GetName() returns the correct name: PASS
+TESTCASE 80: ExecutiveChairCar::IsAC() returns correct AC status: PASS
+TESTCASE 81: ExecutiveChairCar::IsLuxury() returns correct luxury status: PASS
+TESTCASE 82: ExecutiveChairCar::IsSitting() returns correct sitting status: PASS
+TESTCASE 83: ExecutiveChairCar::GetNumberOfTiers() returns the correct number of tiers: PASS
+TESTCASE 84: ExecutiveChairCar::GetReservationCharge() returns the correct reservation charge: PASS
+TESTCASE 85: ExecutiveChairCar::GetTatkalLoadFactor() returns the correct tatkal load factor: PASS
+TESTCASE 86: ExecutiveChairCar::GetMinTatkalCharge() returns the correct minimum tatkal charge: PASS
+TESTCASE 87: ExecutiveChairCar::GetMaxTatkalCharge() returns the correct maximum tatkal charge: PASS
+TESTCASE 88: ExecutiveChairCar::GetMinTatkalDist() returns the correct minimum tatkal distance: PASS
+TESTCASE 89: Output streaming operator for BookingClasses<T> (BookingClasses::AC2Tier): PASS
+TESTCASE 90: Testing the correct working of polymorphic heirarchy (using GetName()): PASS
+TESTCASE 91: Output streaming operator for BookingClasses: PASS
+
+----- VERDICT : 91/91 test cases passed -----
+
+
+CLASS CONCESSIONS(LadiesConcession, GeneralConcession, SeniorCitizenConcession, DivyaangConcession)
+
+TESTCASE 1 : Concessions:GeneralConcession:GetConcessionFactor: PASS
+TESTCASE 2 : Concessions:LadiedConcession:GetConcessionFactor: PASS
+TESTCASE 3 : Concessions:SeniorCitizenConcession:GetConcessionFactor for Female: PASS
+TESTCASE 4 : Concessions:SeniorCitizenConcession:GetConcessionFactor for Male: PASS
+TESTCASE 5 : Concessions:DivyaangConcession:GetConcessionFactor - ACFirstClass - Blind : PASS
+TESTCASE 6 : Concessions:DivyaangConcession:GetConcessionFactor - Executive Chair Car - Blind : PASS
+TESTCASE 7 : Concessions:DivyaangConcession:GetConcessionFactor - AC 2 Tier - Blind : PASS
+TESTCASE 8 : Concessions:DivyaangConcession:GetConcessionFactor -First Class - Blind : PASS
+TESTCASE 9 : Concessions:DivyaangConcession:GetConcessionFactor -  AC3Tier - Blind : PASS
+TESTCASE 10 : Concessions:DivyaangConcession:GetConcessionFactor -  AC Chair - OC : PASS
+TESTCASE 11 : Concessions:DivyaangConcession:GetConcessionFactor -  Sleeper - Cancer Patient : PASS
+TESTCASE 12 : Concessions:DivyaangConcession:GetConcessionFactor -  Second Sitting - TB Patient : PASS
+
+----- VERDICT : 12/12 Passed -----
+
+
+CLASS BOOKING CATEGORY
+
+TESTCASE 1:  BookingCategory::General::Eligibility throws correct error : PASS
+ Exception thrown: Date of Reservation must be either same as or before date of Booking
+TESTCASE 2:  BookingCategory::General::Eligibility throws correct error : PASS
+ Exception thrown: Date of Reservation and Booking must be within 1 year
+TESTCASE 3:  BookingCategory::General::Eligibility allows eligible passenger : PASS
+TESTCASE 4:  BookingCategory::Ladies::Eligibility Correct error thrown : PASS
+ Exception thrown: Date of Reservation must be either same as or before date of Booking
+TESTCASE 5:  BookingCategory::Ladies::Eligibility Correct error thrown : PASS
+ Exception thrown: Date of Reservation and Booking must be within 1 year
+TESTCASE 6:  BookingCategory::Ladies::Eligibility Correct error thrown : PASS
+ Exception thrown: Booking Error: Male of Age greater than 12
+TESTCASE 7:  BookingCategory::Ladies::Eligibility allows eligible passenger : PASS
+TESTCASE 8:  BookingCategory::SeniorCitizen::Eligibility Correct error thrown : PASS
+ Exception thrown: Date of Reservation must be either same as or before date of Booking
+TESTCASE 9:  BookingCategory::SeniorCitizen::Eligibility Correct error thrown : PASS
+ Exception thrown: Date of Reservation and Booking must be within 1 year
+TESTCASE 10:  BookingCategory::SeniorCitizen::Eligibility Correct error thrown : PASS
+ Exception thrown: Booking Error: Male of Age less than 60 years
+TESTCASE 11:  BookingCategory::SeniorCitizen::Eligibility Correct error thrown : PASS
+ Exception thrown: Booking Error: Female of Age less than 58 years
+TESTCASE 12:  BookingCategory::SeniorCitizen::Eligibility allows eligible passenger : PASS
+TESTCASE 13:  BookingCategory::DivyaangCat::Eligibility Correct error thrown : PASS
+ Exception thrown: Date of Reservation must be either same as or before date of Booking
+TESTCASE 14:  BookingCategory::DivyaangCat::Eligibility Correct error thrown : PASS
+ Exception thrown: Date of Reservation and Booking must be within 1 year
+TESTCASE 15:  BookingCategory::DivyaangCat::Eligibility Correct error thrown : PASS
+ Exception thrown: Passenger does not have a valid Disability Type and/or DivyaangID
+TESTCASE 16:  BookingCategory::DivyaangCat::Eligibility allows eligible passenger : PASS
+TESTCASE 17:  BookingCategory::Tatkal::Eligibility Correct error thrown : PASS
+ Exception thrown: Date of Reservation must be either same as or before date of Booking
+TESTCASE 18:  BookingCategory::Tatkal::Eligibility Correct error thrown : PASS
+ Exception thrown: Date of Reservation and Booking must be within 1 year
+TESTCASE 19:  BookingCategory::Tatkal::Eligibility Correct error thrown : PASS
+ Exception thrown: Tatkal Booking attempted with a gap greater than 1 Day
+TESTCASE 20:  BookingCategory::Tatkal::Eligibility allows eligible passenger : PASS
+TESTCASE 21:  BookingCategory::PremiumTatkal::Eligibility Correct error thrown : PASS
+ Exception thrown: Date of Reservation must be either same as or before date of Booking
+TESTCASE 22:  BookingCategory::PremiumTatkal::Eligibility Correct error thrown : PASS
+ Exception thrown: Date of Reservation and Booking must be within 1 year
+TESTCASE 23:  BookingCategory::PremiumTatkal::Eligibility Correct error thrown : PASS
+ Exception thrown: Tatkal Booking attempted with a gap greater than 1 Day
+TESTCASE 24:  BookingCategory::Tatkal::Eligibility allows eligible passenger : PASS
+TESTCASE 25:  BookingCategory method ReserveInCategory allows eligible passenger : PASS
+TESTCASE 26: BookingCategory method ReserveInCategory throws error for ineligible passenger : PASS
+TESTCASE 27: Output streaming operator for BookingCategoryTypes<T> : PASS
+TESTCASE 28: working of polymorphic hierarchy for BookingCategoryTypes<T> : PASS
+TESTCASE 29: Output streaming operator for BookingCategoryTypes<T> : PASS
+
+----- VERDICT : 29/29 Tests Passed -----
+
+
+CLASS BOOKING
+
+TESTCASE 1: Booking::Reserve() executes reservation correctly: PASS
+TESTCASE 2: Booking::Reserve() executes reservation correctly: PASS
+TESTCASE 3 (E): Booking::Reserve() throws expected exception: PASS
+    Exception message - Booking Error: From Station and To Station cannot be the same
+TESTCASE 4: Booking::Ladies::ComputeFare() calculates fare correctly: PASS
+TESTCASE 5: Booking::General::ComputeFare() calculates fare correctly: PASS
+TESTCASE 6: Booking::General::ComputeFare() calculates fare correctly: PASS
+TESTCASE 7: Booking::SeniorCitizen::ComputeFare() calculates fare correctly: PASS
+TESTCASE 8: Booking::SeniorCitizen::ComputeFare() calculates fare correctly: PASS
+TESTCASE 9: Booking::DivyaangCat::ComputeFare() calculates fare correctly: PASS
+TESTCASE 10: Booking::DivyaangCat::ComputeFare() calculates fare correctly: PASS
+TESTCASE 11: Booking::Tatkal::ComputeFare() calculates fare correctly: PASS
+TESTCASE 12: Booking::Tatkal::ComputeFare() calculates fare correctly: PASS
+TESTCASE 13: Booking::PremiumTatkal::ComputeFare() calculates fare correctly: PASS
+TESTCASE 14: Booking::PremiumTatkal::ComputeFare() calculates fare correctly: PASS
+TESTCASE 15: Booking::GeneralBooking::CheckEligibility() executes eligibility check correctly: PASS
+TESTCASE 16 (E): Booking::GeneralBooking::CheckEligibility() throws expected exception: PASS
+    Exception message - Date of Reservation must be either same as or before date of Booking
+TESTCASE 17: Booking::LadiesBooking::CheckEligibility() executes eligibility check correctly: PASS
+TESTCASE 18 (E): Booking::LadiesBooking::CheckEligibility() throws expected exception: PASS
+    Exception message - Booking Error: Male of Age greater than 12
+TESTCASE 19: Booking::SeniorCitizenBooking::CheckEligibility() executes eligibility check correctly: PASS
+TESTCASE 20 (E): Booking::SeniorCitizenBooking::CheckEligibility() throws expected exception: PASS
+    Exception message - Booking Error: Male of Age less than 60 years
+TESTCASE 21: Booking::DivyaangBooking::CheckEligibility() executes eligibility check correctly: PASS
+TESTCASE 22 (E): Booking::DivyaangBooking::CheckEligibility() throws expected exception: PASS
+    Exception message - Passenger does not have a valid Disability Type and/or DivyaangID
+TESTCASE 23: Booking::TatkalBooking::CheckEligibility() executes eligibility check correctly: PASS
+TESTCASE 24 (E): Booking::TatkalBooking::CheckEligibility() throws expected exception: PASS
+    Exception message - Tatkal Booking attempted with a gap greater than 1 Day
+TESTCASE 25: Booking::PremiumTatkalBooking::CheckEligibility() executes eligibility check correctly: PASS
+TESTCASE 26 (E): Booking::PremiumTatkalBooking::CheckEligibility() throws expected exception: PASS
+    Exception message - Tatkal Booking attempted with a gap greater than 1 Day
+TESTCASE 27: Output streaming operator for Booking: PASS
+
+----- VERDICT : 27/27 test cases passed -----

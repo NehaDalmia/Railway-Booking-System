@@ -1,0 +1,1371 @@
+---------GENDER---------
+
+Gender Abstract Base Class --CONSTRUCTED
+Gender = Male--CONSTRUCTED
+
+
+
+Gender Abstract Base Class --CONSTRUCTED
+Gender = Female--CONSTRUCTED
+
+
+
+---------DIVYAANG---------
+
+Abstract Base Class Divyaang --CONSTRUCTED
+Divyaang = Blind --CONSTRUCTED
+
+
+
+Abstract Base Class Divyaang --CONSTRUCTED
+Divyaang = Orthopaedically Handicapped --CONSTRUCTED
+
+
+
+Abstract Base Class Divyaang --CONSTRUCTED
+Divyaang = Cancer Patient --CONSTRUCTED
+
+
+
+Abstract Base Class Divyaang --CONSTRUCTED
+Divyaang = TB Patient --CONSTRUCTED
+
+
+
+---------PASSENGERS---------
+
+Date = 5/Jan/1900  --CONSTRUCTED
+Name = Oswald Octopus Voodoo --CONSTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Passenger = 
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+  --CONSTRUCTED
+Name = Oswald Octopus Voodoo --DESTRUCTED
+Date = 5/Jan/1900  --DESTRUCTED
+
+
+
+Copy Ctor Passenger = 
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+  --CONSTRUCTED
+
+
+
+Date = 5/Jan/1900  --CONSTRUCTED
+Name = Oswald Octopus Voodoo --CONSTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Passenger = 
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Male
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Cancer Patient
+DisabilityID = f
+  --CONSTRUCTED
+Name = Oswald Octopus Voodoo --DESTRUCTED
+Date = 5/Jan/1900  --DESTRUCTED
+
+
+
+---------DATES---------
+
+Date = 3/Jun/2021  --CONSTRUCTED
+
+
+
+Date = 9/Apr/2021  --CONSTRUCTED
+
+
+
+Date = 9/Apr/2021  --CONSTRUCTED
+
+
+
+---------STATION---------
+
+Station = Kolkata --CONSTRUCTED
+
+
+
+Copy Ctor Station = Kolkata --CONSTRUCTED
+
+
+
+Station = Delhi --CONSTRUCTED
+
+
+
+---------RAILWAYS---------
+
+Railways = Stations: 
+1. Mumbai
+2. Bangalore
+3. Delhi
+4. Chennai
+5. Kolkata
+
+Distances between Stations:
+Bangalore - TO - Chennai - 350 KM
+Delhi - TO - Bangalore - 2150 KM
+Delhi - TO - Chennai - 2180 KM
+Delhi - TO - Kolkata - 1472 KM
+Kolkata - TO - Bangalore - 1871 KM
+Kolkata - TO - Chennai - 1659 KM
+Mumbai - TO - Bangalore - 981 KM
+Mumbai - TO - Chennai - 1338 KM
+Mumbai - TO - Delhi - 1447 KM
+Mumbai - TO - Kolkata - 2014 KM
+ --CONSTRUCTED
+
+
+
+---------NAME---------
+
+Name = Oswald Octopus --CONSTRUCTED
+
+
+
+---------DIVYAANG CONCESSION---------
+
+Concessions Parent Class  --CONSTRUCTED
+DivyaangConcession  --CONSTRUCTED
+
+
+
+---------LADIES CONCESSION---------
+
+Concessions Parent Class  --CONSTRUCTED
+LadiesConcession--CONSTRUCTED
+
+
+
+---------SENIOR CITIZEN CONCESSION---------
+
+Concessions Parent Class  --CONSTRUCTED
+SeniorCitizenConcession --CONSTRUCTED
+
+
+
+---------GENERAL CONCESSION---------
+
+Concessions Parent Class  --CONSTRUCTED
+GeneralConcession--CONSTRUCTED
+
+
+
+---------DATE---------
+
+Date = 1/Jan/2001  --CONSTRUCTED
+
+
+
+Date = 1/Jan/2001  --CONSTRUCTED
+
+
+
+Date = 9/Apr/2021  --CONSTRUCTED
+
+
+
+---------CONCESSIONS---------
+Concessions Parent Class  --CONSTRUCTED
+
+
+
+---------BOOKING CLASSES--------- 
+
+Abstract base class Booking Classes --CONSTRUCTED
+Booking Class = 
+Called From: AC 2 Tier
+Travel Class = AC 2 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: No
+ --CONSTRUCTED
+
+
+
+Abstract base class Booking Classes --CONSTRUCTED
+Booking Class = 
+Called From: AC 3 Tier
+Travel Class = AC 3 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 3
+ : Luxury: No
+ --CONSTRUCTED
+
+
+
+Abstract base class Booking Classes --CONSTRUCTED
+Booking Class = 
+Called From: AC First Class
+Travel Class = AC First Class
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: Yes
+ --CONSTRUCTED
+
+
+
+Abstract base class Booking Classes --CONSTRUCTED
+Booking Class = 
+Called From: AC Chair Car
+Travel Class = AC Chair Car
+ : Mode: Sitting
+ : Comfort: AC
+ : Bunks: 0
+ : Luxury: No
+ --CONSTRUCTED
+
+
+
+Abstract base class Booking Classes --CONSTRUCTED
+Booking Class = 
+Called From: Sleeper
+Travel Class = Sleeper
+ : Mode: Sleeping
+ : Comfort: Non-AC
+ : Bunks: 3
+ : Luxury: No
+ --CONSTRUCTED
+
+
+
+Abstract base class Booking Classes --CONSTRUCTED
+Booking Class = 
+Called From: Second Sitting
+Travel Class = Second Sitting
+ : Mode: Sitting
+ : Comfort: Non-AC
+ : Bunks: 0
+ : Luxury: No
+ --CONSTRUCTED
+
+
+
+Abstract base class Booking Classes --CONSTRUCTED
+Booking Class = 
+Called From: Executive Chair Car
+Travel Class = Executive Chair Car
+ : Mode: Sitting
+ : Comfort: AC
+ : Bunks: 0
+ : Luxury: Yes
+ --CONSTRUCTED
+
+
+
+Abstract base class Booking Classes --CONSTRUCTED
+Booking Class = 
+Called From: First Class
+Travel Class = First Class
+ : Mode: Sleeping
+ : Comfort: Non-AC
+ : Bunks: 2
+ : Luxury: Yes
+ --CONSTRUCTED
+
+
+
+---------BOOKING CATEGORY---------
+
+Abstract Base Class Booking Category  --CONSTRUCTED
+Booking Category = Senior Citizen --CONSTRUCTED
+
+
+
+Abstract Base Class Booking Category  --CONSTRUCTED
+Booking Category = Ladies --CONSTRUCTED
+
+
+
+Abstract Base Class Booking Category  --CONSTRUCTED
+Booking Category = General --CONSTRUCTED
+
+
+
+Abstract Base Class Booking Category  --CONSTRUCTED
+Booking Category = Divyaang --CONSTRUCTED
+
+
+
+Abstract Base Class Booking Category  --CONSTRUCTED
+Booking Category = Tatkal --CONSTRUCTED
+
+
+
+Abstract Base Class Booking Category  --CONSTRUCTED
+Booking Category = Premium Tatkal --CONSTRUCTED
+
+
+
+---------BOOKING---------
+
+Date = 9/Apr/2022  --CONSTRUCTED
+Date = 9/Apr/2022  --DESTRUCTED
+Copy Ctor Station = Kolkata --CONSTRUCTED
+Copy Ctor Station = Delhi --CONSTRUCTED
+Copy Ctor Passenger = 
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+  --CONSTRUCTED
+Abstract Parent Class Booking  --CONSTRUCTED
+Booking = 
+Called from: LadiesBooking
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 1
+From Station = Kolkata
+To Station = Delhi
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Ladies
+Travel Class = AC 2 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: No
+Fare = 2994
+
+ --CONSTRUCTED
+
+
+
+Date = 9/Apr/2022  --CONSTRUCTED
+Date = 9/Apr/2022  --DESTRUCTED
+Copy Ctor Station = Delhi --CONSTRUCTED
+Copy Ctor Station = Kolkata --CONSTRUCTED
+Copy Ctor Passenger = 
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+  --CONSTRUCTED
+Abstract Parent Class Booking  --CONSTRUCTED
+Booking = 
+Called from: LadiesBooking
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 2
+From Station = Delhi
+To Station = Kolkata
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Ladies
+Travel Class = AC 2 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: No
+Fare = 2994
+
+ --CONSTRUCTED
+
+
+
+Station = Delhi --CONSTRUCTED
+Station = Mumbai --CONSTRUCTED
+Date = 9/Apr/2022  --CONSTRUCTED
+Date = 9/Apr/2022  --DESTRUCTED
+Copy Ctor Station = Mumbai --CONSTRUCTED
+Copy Ctor Station = Delhi --CONSTRUCTED
+Copy Ctor Passenger = 
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+  --CONSTRUCTED
+Abstract Parent Class Booking  --CONSTRUCTED
+Booking = 
+Called from: GeneralBooking
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 3
+From Station = Mumbai
+To Station = Delhi
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = General
+Travel Class = AC 3 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 3
+ : Luxury: No
+Fare = 1849
+
+ --CONSTRUCTED
+Station = Mumbai --DESTRUCTED
+Station = Delhi --DESTRUCTED
+
+
+
+Station = Delhi --CONSTRUCTED
+Station = Mumbai --CONSTRUCTED
+Date = 9/Apr/2022  --CONSTRUCTED
+Date = 9/Apr/2022  --DESTRUCTED
+Copy Ctor Station = Mumbai --CONSTRUCTED
+Copy Ctor Station = Delhi --CONSTRUCTED
+Copy Ctor Passenger = 
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+  --CONSTRUCTED
+Abstract Parent Class Booking  --CONSTRUCTED
+Booking = 
+Called from: GeneralBooking
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 4
+From Station = Mumbai
+To Station = Delhi
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = General
+Travel Class = AC First Class
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: Yes
+Fare = 4763
+
+ --CONSTRUCTED
+Station = Mumbai --DESTRUCTED
+Station = Delhi --DESTRUCTED
+
+
+
+Station = Delhi --CONSTRUCTED
+Station = Mumbai --CONSTRUCTED
+Date = 9/Apr/2022  --CONSTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 9/Apr/2022  --DESTRUCTED
+Copy Ctor Station = Mumbai --CONSTRUCTED
+Copy Ctor Station = Delhi --CONSTRUCTED
+Copy Ctor Passenger = 
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Male
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Cancer Patient
+DisabilityID = f
+  --CONSTRUCTED
+Abstract Parent Class Booking  --CONSTRUCTED
+Booking = 
+Called from: Senior CitizenBooking
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Male
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Cancer Patient
+DisabilityID = f
+-- Booking Details -- 
+PNR Number = 5
+From Station = Mumbai
+To Station = Delhi
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Senior Citizen
+Travel Class = AC 3 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 3
+ : Luxury: No
+Fare = 1125
+
+ --CONSTRUCTED
+Station = Mumbai --DESTRUCTED
+Station = Delhi --DESTRUCTED
+
+
+
+Station = Delhi --CONSTRUCTED
+Station = Mumbai --CONSTRUCTED
+Date = 9/Apr/2022  --CONSTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 9/Apr/2021  --CONSTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 9/Apr/2022  --DESTRUCTED
+Copy Ctor Station = Mumbai --CONSTRUCTED
+Copy Ctor Station = Delhi --CONSTRUCTED
+Copy Ctor Passenger = 
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+  --CONSTRUCTED
+Abstract Parent Class Booking  --CONSTRUCTED
+Booking = 
+Called from: Senior CitizenBooking
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 6
+From Station = Mumbai
+To Station = Delhi
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Senior Citizen
+Travel Class = AC First Class
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: Yes
+Fare = 2411
+
+ --CONSTRUCTED
+Station = Mumbai --DESTRUCTED
+Station = Delhi --DESTRUCTED
+
+
+
+Station = Delhi --CONSTRUCTED
+Station = Mumbai --CONSTRUCTED
+Date = 9/Apr/2022  --CONSTRUCTED
+Date = 9/Apr/2022  --DESTRUCTED
+Copy Ctor Station = Mumbai --CONSTRUCTED
+Copy Ctor Station = Delhi --CONSTRUCTED
+Copy Ctor Passenger = 
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+  --CONSTRUCTED
+Abstract Parent Class Booking  --CONSTRUCTED
+Booking = 
+Called from: DivyaangBooking
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 7
+From Station = Mumbai
+To Station = Delhi
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Divyaang
+Travel Class = AC 3 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 3
+ : Luxury: No
+Fare = 492
+
+ --CONSTRUCTED
+Station = Mumbai --DESTRUCTED
+Station = Delhi --DESTRUCTED
+
+
+
+Station = Delhi --CONSTRUCTED
+Station = Mumbai --CONSTRUCTED
+Date = 9/Apr/2022  --CONSTRUCTED
+Date = 9/Apr/2022  --DESTRUCTED
+Copy Ctor Station = Mumbai --CONSTRUCTED
+Copy Ctor Station = Delhi --CONSTRUCTED
+Copy Ctor Passenger = 
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Male
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Cancer Patient
+DisabilityID = f
+  --CONSTRUCTED
+Abstract Parent Class Booking  --CONSTRUCTED
+Booking = 
+Called from: DivyaangBooking
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Male
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Cancer Patient
+DisabilityID = f
+-- Booking Details -- 
+PNR Number = 8
+From Station = Mumbai
+To Station = Delhi
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Divyaang
+Travel Class = AC First Class
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: Yes
+Fare = 2411
+
+ --CONSTRUCTED
+Station = Mumbai --DESTRUCTED
+Station = Delhi --DESTRUCTED
+
+
+
+Station = Mumbai --CONSTRUCTED
+Station = Delhi --CONSTRUCTED
+Date = 9/Apr/2022  --CONSTRUCTED
+Date = 9/Apr/2022  --DESTRUCTED
+Copy Ctor Station = Delhi --CONSTRUCTED
+Copy Ctor Station = Mumbai --CONSTRUCTED
+Copy Ctor Passenger = 
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+  --CONSTRUCTED
+Abstract Parent Class Booking  --CONSTRUCTED
+Booking = 
+Called from: TatkalBooking
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 9
+From Station = Delhi
+To Station = Mumbai
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Tatkal
+Travel Class = AC 3 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 3
+ : Luxury: No
+Fare = 2249
+
+ --CONSTRUCTED
+Station = Delhi --DESTRUCTED
+Station = Mumbai --DESTRUCTED
+
+
+
+Station = Bangalore --CONSTRUCTED
+Station = Chennai --CONSTRUCTED
+Date = 9/Apr/2022  --CONSTRUCTED
+Date = 9/Apr/2022  --DESTRUCTED
+Copy Ctor Station = Chennai --CONSTRUCTED
+Copy Ctor Station = Bangalore --CONSTRUCTED
+Copy Ctor Passenger = 
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+  --CONSTRUCTED
+Abstract Parent Class Booking  --CONSTRUCTED
+Booking = 
+Called from: TatkalBooking
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 10
+From Station = Chennai
+To Station = Bangalore
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Tatkal
+Travel Class = AC First Class
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: Yes
+Fare = 1198
+
+ --CONSTRUCTED
+Station = Chennai --DESTRUCTED
+Station = Bangalore --DESTRUCTED
+
+
+
+Station = Bangalore --CONSTRUCTED
+Station = Chennai --CONSTRUCTED
+Date = 9/Apr/2022  --CONSTRUCTED
+Date = 9/Apr/2022  --DESTRUCTED
+Copy Ctor Station = Chennai --CONSTRUCTED
+Copy Ctor Station = Bangalore --CONSTRUCTED
+Copy Ctor Passenger = 
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+  --CONSTRUCTED
+Abstract Parent Class Booking  --CONSTRUCTED
+Booking = 
+Called from: Premium TatkalBooking
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 11
+From Station = Chennai
+To Station = Bangalore
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Premium Tatkal
+Travel Class = AC First Class
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: Yes
+Fare = 1198
+
+ --CONSTRUCTED
+Station = Chennai --DESTRUCTED
+Station = Bangalore --DESTRUCTED
+
+
+
+Station = Mumbai --CONSTRUCTED
+Station = Delhi --CONSTRUCTED
+Date = 9/Apr/2022  --CONSTRUCTED
+Date = 9/Apr/2022  --DESTRUCTED
+Copy Ctor Station = Delhi --CONSTRUCTED
+Copy Ctor Station = Mumbai --CONSTRUCTED
+Copy Ctor Passenger = 
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+  --CONSTRUCTED
+Abstract Parent Class Booking  --CONSTRUCTED
+Booking = 
+Called from: Premium TatkalBooking
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 12
+From Station = Delhi
+To Station = Mumbai
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Premium Tatkal
+Travel Class = AC 3 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 3
+ : Luxury: No
+Fare = 2649
+
+ --CONSTRUCTED
+Station = Delhi --DESTRUCTED
+Station = Mumbai --DESTRUCTED
+
+
+
+---------LIST OF BOOKINGS---------
+
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 1
+From Station = Kolkata
+To Station = Delhi
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Ladies
+Travel Class = AC 2 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: No
+Fare = 2994
+
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 2
+From Station = Delhi
+To Station = Kolkata
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Ladies
+Travel Class = AC 2 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: No
+Fare = 2994
+
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 3
+From Station = Mumbai
+To Station = Delhi
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = General
+Travel Class = AC 3 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 3
+ : Luxury: No
+Fare = 1849
+
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 4
+From Station = Mumbai
+To Station = Delhi
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = General
+Travel Class = AC First Class
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: Yes
+Fare = 4763
+
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Male
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Cancer Patient
+DisabilityID = f
+-- Booking Details -- 
+PNR Number = 5
+From Station = Mumbai
+To Station = Delhi
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Senior Citizen
+Travel Class = AC 3 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 3
+ : Luxury: No
+Fare = 1125
+
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 6
+From Station = Mumbai
+To Station = Delhi
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Senior Citizen
+Travel Class = AC First Class
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: Yes
+Fare = 2411
+
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 7
+From Station = Mumbai
+To Station = Delhi
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Divyaang
+Travel Class = AC 3 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 3
+ : Luxury: No
+Fare = 492
+
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Male
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Cancer Patient
+DisabilityID = f
+-- Booking Details -- 
+PNR Number = 8
+From Station = Mumbai
+To Station = Delhi
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Divyaang
+Travel Class = AC First Class
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: Yes
+Fare = 2411
+
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 9
+From Station = Delhi
+To Station = Mumbai
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Tatkal
+Travel Class = AC 3 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 3
+ : Luxury: No
+Fare = 2249
+
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 10
+From Station = Chennai
+To Station = Bangalore
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Tatkal
+Travel Class = AC First Class
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: Yes
+Fare = 1198
+
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 11
+From Station = Chennai
+To Station = Bangalore
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Premium Tatkal
+Travel Class = AC First Class
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: Yes
+Fare = 1198
+
+BOOKING SUCCEEDED:
+-- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+-- Booking Details -- 
+PNR Number = 12
+From Station = Delhi
+To Station = Mumbai
+Travel Date = 9/Apr/2021
+Reservation Date = 9/Apr/2021
+Booking Category = Premium Tatkal
+Travel Class = AC 3 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 3
+ : Luxury: No
+Fare = 2649
+
+---------DESTRUCTORS---------
+
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 1/Jan/2001  --DESTRUCTED
+Date = 1/Jan/2001  --DESTRUCTED
+Name = Oswald Octopus --DESTRUCTED
+Station = Delhi --DESTRUCTED
+Station = Kolkata --DESTRUCTED
+Station = Kolkata --DESTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 9/Apr/2021  --DESTRUCTED
+Date = 3/Jun/2021  --DESTRUCTED
+Passenger = -- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Male
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Cancer Patient
+DisabilityID = f
+  --DESTRUCTED
+Date = 5/Jan/1900  --DESTRUCTED
+Name = Oswald Octopus Voodoo --DESTRUCTED
+Passenger = -- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+  --DESTRUCTED
+Date = 5/Jan/1900  --DESTRUCTED
+Name = Oswald Octopus Voodoo --DESTRUCTED
+Passenger = -- Passenger Details --
+Name = Oswald Octopus Voodoo
+Age = 121
+Gender = Female
+Aadhar Number = 123456789123
+Mobile Number = 0123456789
+Disability Type = Blind
+DisabilityID = e
+  --DESTRUCTED
+Date = 5/Jan/1900  --DESTRUCTED
+Name = Oswald Octopus Voodoo --DESTRUCTED
+Booking Category = Premium Tatkal  --DESTRUCTED
+Abstract Base Class Booking Category  --DESTRUCTED
+Booking Category = Tatkal  --DESTRUCTED
+Abstract Base Class Booking Category  --DESTRUCTED
+Booking Category = Divyaang  --DESTRUCTED
+Abstract Base Class Booking Category  --DESTRUCTED
+Booking Category = General  --DESTRUCTED
+Abstract Base Class Booking Category  --DESTRUCTED
+Booking Category = Ladies  --DESTRUCTED
+Abstract Base Class Booking Category  --DESTRUCTED
+Booking Category = Senior Citizen  --DESTRUCTED
+Abstract Base Class Booking Category  --DESTRUCTED
+Booking Class = 
+Called From: First Class
+Travel Class = First Class
+ : Mode: Sleeping
+ : Comfort: Non-AC
+ : Bunks: 2
+ : Luxury: Yes
+  --DESTRUCTED
+Abstract Base Class Booking Classes  --DESTRUCTED
+Booking Class = 
+Called From: Executive Chair Car
+Travel Class = Executive Chair Car
+ : Mode: Sitting
+ : Comfort: AC
+ : Bunks: 0
+ : Luxury: Yes
+  --DESTRUCTED
+Abstract Base Class Booking Classes  --DESTRUCTED
+Booking Class = 
+Called From: Second Sitting
+Travel Class = Second Sitting
+ : Mode: Sitting
+ : Comfort: Non-AC
+ : Bunks: 0
+ : Luxury: No
+  --DESTRUCTED
+Abstract Base Class Booking Classes  --DESTRUCTED
+Booking Class = 
+Called From: Sleeper
+Travel Class = Sleeper
+ : Mode: Sleeping
+ : Comfort: Non-AC
+ : Bunks: 3
+ : Luxury: No
+  --DESTRUCTED
+Abstract Base Class Booking Classes  --DESTRUCTED
+Booking Class = 
+Called From: AC Chair Car
+Travel Class = AC Chair Car
+ : Mode: Sitting
+ : Comfort: AC
+ : Bunks: 0
+ : Luxury: No
+  --DESTRUCTED
+Abstract Base Class Booking Classes  --DESTRUCTED
+Booking Class = 
+Called From: AC First Class
+Travel Class = AC First Class
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: Yes
+  --DESTRUCTED
+Abstract Base Class Booking Classes  --DESTRUCTED
+Booking Class = 
+Called From: AC 3 Tier
+Travel Class = AC 3 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 3
+ : Luxury: No
+  --DESTRUCTED
+Abstract Base Class Booking Classes  --DESTRUCTED
+Booking Class = 
+Called From: AC 2 Tier
+Travel Class = AC 2 Tier
+ : Mode: Sleeping
+ : Comfort: AC
+ : Bunks: 2
+ : Luxury: No
+  --DESTRUCTED
+Abstract Base Class Booking Classes  --DESTRUCTED
+Concessions Parent Class  --DESTRUCTED
+GeneralConcession --DESTRUCTED
+Concessions Parent Class  --DESTRUCTED
+SeniorCitizenConcession --DESTRUCTED
+Concessions Parent Class  --DESTRUCTED
+LadiesConcession --DESTRUCTED
+Concessions Parent Class  --DESTRUCTED
+DivyaangConcession --DESTRUCTED
+Concessions Parent Class  --DESTRUCTED
+Railways = Stations: 
+1. Mumbai
+2. Bangalore
+3. Delhi
+4. Chennai
+5. Kolkata
+
+Distances between Stations:
+Bangalore - TO - Chennai - 350 KM
+Delhi - TO - Bangalore - 2150 KM
+Delhi - TO - Chennai - 2180 KM
+Delhi - TO - Kolkata - 1472 KM
+Kolkata - TO - Bangalore - 1871 KM
+Kolkata - TO - Chennai - 1659 KM
+Mumbai - TO - Bangalore - 981 KM
+Mumbai - TO - Chennai - 1338 KM
+Mumbai - TO - Delhi - 1447 KM
+Mumbai - TO - Kolkata - 2014 KM
+ --DESTRUCTED
+Divyaang = TB Patient --DESTRUCTED
+Abstract Base Class Divyaang  --DESTRUCTED
+Divyaang = Cancer Patient --DESTRUCTED
+Abstract Base Class Divyaang  --DESTRUCTED
+Divyaang = Orthopaedically Handicapped --DESTRUCTED
+Abstract Base Class Divyaang  --DESTRUCTED
+Divyaang = Blind --DESTRUCTED
+Abstract Base Class Divyaang  --DESTRUCTED
+Gender = FemaleDestructor
+Gender Abstract Base Class  --DESTRUCTED
+Gender = MaleDestructor
+Gender Abstract Base Class  --DESTRUCTED
